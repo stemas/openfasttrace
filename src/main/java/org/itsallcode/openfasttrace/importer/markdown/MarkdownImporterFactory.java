@@ -32,7 +32,7 @@ public class MarkdownImporterFactory extends RegexMatchingImporterFactory
 {
     public MarkdownImporterFactory()
     {
-        super("(?i).*\\.markdown", "(?i).*\\.md");
+        super("(?i).*\\.markdown", "(?i).*\\.md", "(?i).*\\.adoc");
     }
 
     @Override
