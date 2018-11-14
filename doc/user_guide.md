@@ -358,7 +358,7 @@ Import only specification items where the artifact type matches one of the liste
 
     -t, --wanted-tags [_,]<tag>[,...]
 
-Import only specification items that have at least one of the listed tags. If you add a single underscore "_" as first entry in the list, specification items that no tags at all are also imported.
+Import only specification items that have at least one of the listed tags. If you add a single underscore "_" as first entry in the list, specification items that have no tags at all are also imported.
 
 #### Tracing options
 
