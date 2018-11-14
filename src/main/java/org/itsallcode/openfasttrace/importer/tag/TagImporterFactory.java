@@ -41,7 +41,7 @@ public class TagImporterFactory extends ImporterFactory
 {
     private static final Logger LOG = Logger.getLogger(TagImporterFactory.class.getName());
 
-    private static final String DEFAULT_FILE_REGEX = "(?i).*\\.java";
+    private static final String DEFAULT_FILE_REGEX = "(?i).*\\.(java|ts)";
     private static final Pattern DEFAULT_FILE_PATTERN = Pattern.compile(DEFAULT_FILE_REGEX);
 
     @Override
